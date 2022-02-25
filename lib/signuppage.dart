@@ -1,3 +1,4 @@
+import 'package:basicchatapp/google_sign_in.dart';
 import 'package:basicchatapp/googleauthentication.dart';
 import 'package:flutter/material.dart';
 
@@ -16,7 +17,7 @@ class SignUpPage extends StatelessWidget {
             width: 250,
             ),
             onTap: (){
-             signInWithGoogle();
+             GoogleSignInProvider();
             },
           ),
         ],
